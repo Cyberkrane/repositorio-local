@@ -1,0 +1,71 @@
+[{
+        "id": 1,
+        "nombre": "Leyendas Bar",
+        "horario": "07:00 a. m. - 12:45 a. m.",
+        "dirección": "calle Avenida Pellegrini 799 Eva Peron",
+        "teléfono": "+54 3547 57-1580"
+    },
+    {
+        "id": 2,
+        "nombre": "El Bistro del Alquimista",
+        "horario": "9:00 p. m. - 11:30 p. m.",
+        "dirección": "Calle Eva Perón 117 Calle Eva Peron casi pellegrini",
+        "teléfono": "+54 9 351 615-4312"
+    },
+    {
+        "id": 3,
+        "nombre": "Bonafide",
+        "horario": "08:00 a. m. - 10:00 p. m.",
+        "dirección": "Av. Belgrano 339",
+        "teléfono": "+54 3547 43-0888"
+    },
+    {
+        "id": 4,
+        "nombre": "La Merced",
+        "horario": "07:00 a. m. - 12:45 a. m.",
+        "dirección": "San Martín 66",
+        "teléfono": "+54 3547 42-2681"
+    },
+    {
+        "id": 5,
+        "nombre": "Estacion Liniers",
+        "horario": "07:00 a. m. - 12:45 a. m.",
+        "dirección": "Avenida Belgrano 466",
+        "teléfono": "+54 3547 42-2459"
+    },
+    {
+        "id": 6,
+        "nombre": "La Creación",
+        "horario": "08:00 a. m. - 1:00 p. m.5:00 p. m. - 9:00 p. m.",
+        "dirección": "P. Bustos 99",
+        "teléfono": "+54 3547 43-3859"
+    },
+    {
+        "id": 7,
+        "nombre": "Cardona",
+        "horario": "08:00 a. m. - 1:00 p. m.5:00 p. m. - 9:00 p. m.",
+        "dirección": "Avenida Sarmiento 310",
+        "teléfono": "+54 9 3547 57-7814"
+    },
+    {
+        "id": 8,
+        "nombre": "Restaurante Adelita",
+        "horario": "07:00 a. m. - 12:45 a. m.",
+        "dirección": "Ruta Provincial S5 23 Km. 1,5 Camino a la bolsa desde Alta Gracia",
+        "teléfono": "+54 3547 49-4481"
+    },
+    {
+        "id": 9,
+        "nombre": "La Casa De Juan Pedro",
+        "horario": "08:00 a. m. - 1:00 p. m.5:00 p. m. - 9:00 p. m.",
+        "dirección": "Avenida Sarmiento 259",
+        "teléfono": "+54 3547 50-0729"
+    },
+    {
+        "id": 10,
+        "nombre": "Coco Restobar",
+        "horario": "07:00 a. m. - 12:45 a. m.",
+        "dirección": "Avenida Sarmiento 248",
+        "teléfono": "+54 3547 43-0304"
+    }
+]
