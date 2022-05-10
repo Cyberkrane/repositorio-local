@@ -1,0 +1,114 @@
+[
+    {
+        "nombre": "Box One",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box two",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box three",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box four",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box five",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box six",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box seven",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special One",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special two",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special three",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special four",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special five",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special six",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    },
+
+    {
+        "nombre": "Box Special seven",
+        "modelo": "box1",
+        "imgSrc": "./img/alguna_caja",
+        "precio": 100,
+        "estadoStock": true
+    }
+]
+
