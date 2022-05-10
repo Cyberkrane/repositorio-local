@@ -2,7 +2,7 @@
     {
         "nombre": "Box One",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box1.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -10,7 +10,7 @@
     {
         "nombre": "Box two",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box2.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -18,7 +18,7 @@
     {
         "nombre": "Box three",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box3.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -26,7 +26,7 @@
     {
         "nombre": "Box four",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box4.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -34,7 +34,7 @@
     {
         "nombre": "Box five",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box5.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -42,7 +42,7 @@
     {
         "nombre": "Box six",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box6.png",
         "precio": 100,
         "estadoStock": true
     },
@@ -50,63 +50,63 @@
     {
         "nombre": "Box seven",
         "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "imgSrc": "../imgs/box7.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special One",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "Box70s",
+        "modelo": "Box Special One",
+        "imgSrc": "../imgs/box70s.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special two",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxBlack",
+        "modelo": "Box Special two",
+        "imgSrc": "../imgs/boxBlack.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special three",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxDarkgrey",
+        "modelo": "Box Special three",
+        "imgSrc": "../imgs/boxDarkgrey.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special four",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxLunar",
+        "modelo": "Box Special four",
+        "imgSrc": "../imgs/boxLunar.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special five",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxSky",
+        "modelo": "Box Special five",
+        "imgSrc": "../imgs/boxSky.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special six",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxStone",
+        "modelo": "Box Special six",
+        "imgSrc": "../imgs/boxStone.png",
         "precio": 100,
         "estadoStock": true
     },
 
     {
-        "nombre": "Box Special seven",
-        "modelo": "box1",
-        "imgSrc": "./img/alguna_caja",
+        "nombre": "BoxWhite",
+        "modelo": "Box Special seven",
+        "imgSrc": "../imgs/boxWhite.png",
         "precio": 100,
         "estadoStock": true
     }
