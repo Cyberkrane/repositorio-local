@@ -1,0 +1,140 @@
+[
+    {
+        "nombre": "Maria",
+        "apellido": "stiletto",
+        "edad": 17,
+        "email": "maria.stiletto@gmail.com",
+        "telefono": 3521.542135,
+        "habilidad": "administracion de galletitas",
+        "estudiante": true
+    },
+    {
+        "nombre": "Juan",
+        "apellido": "perez",
+        "edad": 16,
+        "email": "juan.perez@gmail.com",
+        "telefono": 3524.536498,
+        "habilidad": "transporte de bebidas",
+        "estudiante": true
+    },
+    {
+        "nombre": "Tommy",
+        "apellido": "villegas",
+        "edad": 18,
+        "email": "tommy.villegas@gmail.com",
+        "telefono": 3521.612534,
+        "habilidad": "mirar chicos",
+        "estudiante": true
+    },
+    {
+        "nombre": "Julieta",
+        "apellido": "cappuleto",
+        "edad": 16,
+        "email": "juli.cappa@gmail.com",
+        "telefono": 3523.365148,
+        "habilidad": "enamorar a romeo",
+        "estudiante": true
+    },
+    {
+        "nombre": "Angel",
+        "apellido": "corral",
+        "edad": 19,
+        "email": "angel.darkness@gmail.com",
+        "telefono": 3547.652419,
+        "habilidad": "convocar espiritus",
+        "estudiante": false
+    },
+    {
+        "nombre": "Alan",
+        "apellido": "corral",
+        "edad": 25,
+        "email": "alan.corral@gmail.com",
+        "telefono": 3547.678216,
+        "habilidad": "hacer amistades",
+        "estudiante": false
+    },
+    {
+        "nombre": "Alex",
+        "apellido": "corral",
+        "edad": 27,
+        "email": "alex.corral@gmail.com",
+        "telefono": 3547.265874,
+        "habilidad": "ingenieria",
+        "estudiante": false
+    },
+    {
+        "nombre": "Joel",
+        "apellido": "becker",
+        "edad": 27,
+        "email": "joel.becker@gmail.com",
+        "telefono": 3542.156498,
+        "habilidad": "transporte de personal",
+        "estudiante": true
+    },
+    {
+        "nombre": "Jenny",
+        "apellido": "cardosso",
+        "edad": 21,
+        "email": "jenny.card@gmail.com",
+        "telefono": 3542.658932,
+        "habilidad": "delivery",
+        "estudiante": false
+    },
+    {
+        "nombre": "Luz",
+        "apellido": "guttemberg",
+        "edad": 17,
+        "email": "luz.guttem@gmail.com",
+        "telefono": 3542.326587,
+        "habilidad": "comunicaciones",
+        "estudiante": true
+    },
+    {
+        "nombre": "Alejandra",
+        "apellido": "arenow",
+        "edad": 26,
+        "email": "alejandra.arenow@gmail.com",
+        "telefono": 351.654128,
+        "habilidad": "ingenieria cuantica",
+        "estudiante": true
+    },
+    {
+        "nombre": "Mariano",
+        "apellido": "bullher",
+        "edad": 24,
+        "email": "mariano.bullher@gmail.com",
+        "telefono": 3547.651894,
+        "habilidad": "manipulacion digital",
+        "estudiante": false
+    },
+    {
+        "nombre": "Nahuel",
+        "apellido": "bulpez",
+        "edad": 27,
+        "email": "nahuel.bulpez@gmail.com",
+        "telefono": 3542.326547,
+        "habilidad": "maquetacion musical",
+        "estudiante": true
+    },
+    {
+        "nombre": "Erik",
+        "apellido": "aguinez",
+        "edad": 15,
+        "email": "erik.aguinez@gmail.com",
+        "telefono": 3542.123769,
+        "habilidad": "mirar por la ventana",
+        "estudiante": true
+    },
+    {
+        "nombre": "Kevin",
+        "apellido": "tazzo",
+        "edad": 22,
+        "email": "kevin.tazzo@gmail.com",
+        "telefono": 354.265184,
+        "habilidad": "acarrear bolsas",
+        "estudiante": false
+    }
+
+]
+
+
