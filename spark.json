@@ -1,18 +1,210 @@
-[
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'BARBIERI SERAFIN ANTONIO'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'DENSO MANUFACTURING ARGENTINA S.A'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'Diaz Vouga Emanuel Jose Oscar'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'EQUIPAMIENTOS BRACCO S.A.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'HERLAN MARIO CESAR'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'HONDA MOTOR DE ARGENTINA SA'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'Honda Motor de Argentina SA'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'INDUSTRIAS GUIDI SACIF'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'JIT S.A.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'Lauria Maria Soledad'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'MANDOLA HERMANOS S.A.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'MERCEDES-BENZ ARGENTINA S.A.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'METALSA ARGENTINA S.A.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'METALSA,  S.A.P.I. de C.V.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'METALURGICA VILLA SARMIENTO S.R.L.'},
-    {COL1_SUM: {}, COL1_SUMacum: {}, childs: null, groupName: 'Mercedes-Benz Argentina S.A.'}
-    ]
+{
+  "status": "success",
+  "value": {
+    "df": {
+      "cols": [
+        {
+          "agg": "SUM",
+          "field": "COL1_SUM",
+          "headerName": "Price(SUM)",
+          "kind": "A",
+          "meassureName": "Price"
+        },
+        {
+          "agg": "SUM",
+          "field": "COL1_SUMacum",
+          "headerName": "Price(acum)(SUM)",
+          "kind": "acumV",
+          "meassureName": "Price"
+        }
+      ],
+      "fieldRowMap": { "CardName": "COL2", "Price": "COL1" },
+      "rowFieldMap": { "COL1": "Price", "COL2": "CardName" },
+      "rows": [
+        {
+          "COL1_SUM": { "value": 28086.05 },
+          "COL1_SUMacum": { "value": 28086.05 },
+          "childs": null,
+          "groupName": "BARBIERI SERAFIN ANTONIO"
+        },
+        {
+          "COL1_SUM": { "value": 544764.7396 },
+          "COL1_SUMacum": { "value": 572850.7896 },
+          "childs": null,
+          "groupName": "DENSO MANUFACTURING ARGENTINA S.A"
+        },
+        {
+          "COL1_SUM": { "value": 50000.0 },
+          "COL1_SUMacum": { "value": 622850.7896 },
+          "childs": null,
+          "groupName": "Diaz Vouga Emanuel Jose Oscar"
+        },
+        {
+          "COL1_SUM": { "value": 317915.1594 },
+          "COL1_SUMacum": { "value": 940765.949 },
+          "childs": null,
+          "groupName": "EQUIPAMIENTOS BRACCO S.A."
+        },
+        {
+          "COL1_SUM": { "value": 250000.0 },
+          "COL1_SUMacum": { "value": 1190765.949 },
+          "childs": null,
+          "groupName": "HERLAN MARIO CESAR"
+        },
+        {
+          "COL1_SUM": { "value": 378652.5452 },
+          "COL1_SUMacum": { "value": 1569418.4942 },
+          "childs": null,
+          "groupName": "HONDA MOTOR DE ARGENTINA SA"
+        },
+        {
+          "COL1_SUM": { "value": 55535326.34 },
+          "COL1_SUMacum": { "value": 57104744.8342 },
+          "childs": null,
+          "groupName": "Honda Motor de Argentina SA"
+        },
+        {
+          "COL1_SUM": { "value": 18676448.169 },
+          "COL1_SUMacum": { "value": 75781193.0032 },
+          "childs": null,
+          "groupName": "INDUSTRIAS GUIDI SACIF"
+        },
+        {
+          "COL1_SUM": { "value": 77707.3 },
+          "COL1_SUMacum": { "value": 75858900.3032 },
+          "childs": null,
+          "groupName": "JIT S.A."
+        },
+        {
+          "COL1_SUM": { "value": 450000.0 },
+          "COL1_SUMacum": { "value": 76308900.3032 },
+          "childs": null,
+          "groupName": "Lauria Maria Soledad"
+        },
+        {
+          "COL1_SUM": { "value": 3755656.1086 },
+          "COL1_SUMacum": { "value": 80064556.4118 },
+          "childs": null,
+          "groupName": "MANDOLA HERMANOS S.A."
+        },
+        {
+          "COL1_SUM": { "value": 2520938.29 },
+          "COL1_SUMacum": { "value": 82585494.7018 },
+          "childs": null,
+          "groupName": "MERCEDES-BENZ ARGENTINA S.A."
+        },
+        {
+          "COL1_SUM": { "value": 20477902.8252 },
+          "COL1_SUMacum": { "value": 103063397.527 },
+          "childs": null,
+          "groupName": "METALSA ARGENTINA S.A."
+        },
+        {
+          "COL1_SUM": { "value": 210100.89 },
+          "COL1_SUMacum": { "value": 103273498.417 },
+          "childs": null,
+          "groupName": "METALSA,  S.A.P.I. de C.V."
+        },
+        {
+          "COL1_SUM": { "value": 3241410.49 },
+          "COL1_SUMacum": { "value": 106514908.907 },
+          "childs": null,
+          "groupName": "METALURGICA VILLA SARMIENTO S.R.L."
+        },
+        {
+          "COL1_SUM": { "value": 1908104.62 },
+          "COL1_SUMacum": { "value": 108423013.527 },
+          "childs": null,
+          "groupName": "Mercedes-Benz Argentina S.A."
+        },
+        {
+          "COL1_SUM": { "value": 3289.62 },
+          "COL1_SUMacum": { "value": 108426303.147 },
+          "childs": null,
+          "groupName": "Metalurgica Rual SA"
+        },
+        {
+          "COL1_SUM": { "value": 139648.74 },
+          "COL1_SUMacum": { "value": 108565951.887 },
+          "childs": null,
+          "groupName": "PILKINGTON AUTOMOTIVE S.A."
+        },
+        {
+          "COL1_SUM": { "value": 1346.28 },
+          "COL1_SUMacum": { "value": 108567298.167 },
+          "childs": null,
+          "groupName": "Prensanor"
+        },
+        {
+          "COL1_SUM": { "value": 523.9224 },
+          "COL1_SUMacum": { "value": 108567822.0894 },
+          "childs": null,
+          "groupName": "Prestam SAIC"
+        },
+        {
+          "COL1_SUM": { "value": 1604065.0768 },
+          "COL1_SUMacum": { "value": 110171887.1662 },
+          "childs": null,
+          "groupName": "Prestamp SAIC"
+        },
+        {
+          "COL1_SUM": { "value": 127.0 },
+          "COL1_SUMacum": { "value": 110172014.1662 },
+          "childs": null,
+          "groupName": "SAS AUTOMOTIVE SYSTEM"
+        },
+        {
+          "COL1_SUM": { "value": 49166296.9119 },
+          "COL1_SUMacum": { "value": 159338311.0781 },
+          "childs": null,
+          "groupName": "SAS Automotriz Argentina SA"
+        },
+        {
+          "COL1_SUM": { "value": 276701294.474 },
+          "COL1_SUMacum": { "value": 436039605.5521 },
+          "childs": null,
+          "groupName": "Sin Datos"
+        },
+        {
+          "COL1_SUM": { "value": 482064.55 },
+          "COL1_SUMacum": { "value": 436521670.1021 },
+          "childs": null,
+          "groupName": "TIBERINA AUTOMOTIVE ARGENTINA SA"
+        },
+        {
+          "COL1_SUM": { "value": 424715039.8666 },
+          "COL1_SUMacum": { "value": 861236709.9687 },
+          "childs": null,
+          "groupName": "TOYOTA ARGENTINA S.A."
+        },
+        {
+          "COL1_SUM": { "value": 1936395.2808 },
+          "COL1_SUMacum": { "value": 863173105.2495 },
+          "childs": null,
+          "groupName": "TOYOTA BOSHOKU ARGENTINA S.R.L."
+        },
+        {
+          "COL1_SUM": { "value": 2319736.448 },
+          "COL1_SUMacum": { "value": 865492841.6975 },
+          "childs": null,
+          "groupName": "TRANSPORTE PILAR SRL"
+        },
+        {
+          "COL1_SUM": { "value": 98755697.2968 },
+          "COL1_SUMacum": { "value": 964248538.9943 },
+          "childs": null,
+          "groupName": "VOLKSWAGEN ARGENTINA S.A."
+        },
+        {
+          "COL1_SUM": { "value": 5477415.1842 },
+          "COL1_SUMacum": { "value": 969725954.1785 },
+          "childs": null,
+          "groupName": "VOLVO TRUCKS Y BUSES ARGENTINA S.A."
+        }
+      ],
+      "total": [{ "COL1_SUM": 969725954.1785 }]
+    },
+    "records": 31,
+    "timeElapsedMill": 233
+  }
+}
