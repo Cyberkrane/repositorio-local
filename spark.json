@@ -1,210 +1,535 @@
 {
-  "status": "success",
-  "value": {
     "df": {
-      "cols": [
-        {
-          "agg": "SUM",
-          "field": "COL1_SUM",
-          "headerName": "Price(SUM)",
-          "kind": "A",
-          "meassureName": "Price"
+        "cols": [
+            {
+                "agg": "SUM",
+                "children": [
+                    {
+                        "agg": "SUM",
+                        "children": [
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "A",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "CAPITAL NORTE_01_IMPORTEBRUTOLOCAL_SUM"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "acumH",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "CAPITAL NORTE_01_IMPORTEBRUTOLOCAL_SUMacum"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM",
+                                "headerName": "ImporteNetoLocal",
+                                "kind": "A",
+                                "meassureName": "ImporteNetoLocal",
+                                "COL_ID": "CAPITAL NORTE_01_IMPORTENETOLOCAL_SUM"
+                            }
+                        ],
+                        "field": "CAPITAL NORTE##_VIS_##01",
+                        "headerName": "01",
+                        "kind": "A",
+                        "meassureName": "",
+                        "COL_ID": "01_DIMENSION"
+                    }
+                ],
+                "field": "CAPITAL NORTE",
+                "headerName": "CAPITAL NORTE",
+                "kind": "A",
+                "meassureName": "",
+                "COL_ID": "CAPITAL NORTE_DIMENSION"
+            },
+            {
+                "agg": "SUM",
+                "children": [
+                    {
+                        "agg": "SUM",
+                        "children": [
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "A",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "CAPITAL SUR_04_IMPORTEBRUTOLOCAL_SUM"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "acumH",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "CAPITAL SUR_04_IMPORTEBRUTOLOCAL_SUMacum"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM",
+                                "headerName": "ImporteNetoLocal",
+                                "kind": "A",
+                                "meassureName": "ImporteNetoLocal",
+                                "COL_ID": "CAPITAL SUR_04_IMPORTENETOLOCAL_SUM"
+                            }
+                        ],
+                        "field": "CAPITAL SUR##_VIS_##04",
+                        "headerName": "04",
+                        "kind": "A",
+                        "meassureName": "",
+                        "COL_ID": "04_DIMENSION"
+                    }
+                ],
+                "field": "CAPITAL SUR",
+                "headerName": "CAPITAL SUR",
+                "kind": "A",
+                "meassureName": "",
+                "COL_ID": "CAPITAL SUR_DIMENSION"
+            },
+            {
+                "agg": "SUM",
+                "children": [
+                    {
+                        "agg": "SUM",
+                        "children": [
+                            {
+                                "agg": "SUM",
+                                "field": "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUM",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "A",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "GBA_ NORTE_11_IMPORTEBRUTOLOCAL_SUM"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUMacum",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "acumH",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "GBA_ NORTE_11_IMPORTEBRUTOLOCAL_SUMacum"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "GBA. NORTE##_VIS_##11##_VIS_##COL13_SUM",
+                                "headerName": "ImporteNetoLocal",
+                                "kind": "A",
+                                "meassureName": "ImporteNetoLocal",
+                                "COL_ID": "GBA_ NORTE_11_IMPORTENETOLOCAL_SUM"
+                            }
+                        ],
+                        "field": "GBA. NORTE##_VIS_##11",
+                        "headerName": "11",
+                        "kind": "A",
+                        "meassureName": "",
+                        "COL_ID": "11_DIMENSION"
+                    }
+                ],
+                "field": "GBA. NORTE",
+                "headerName": "GBA. NORTE",
+                "kind": "A",
+                "meassureName": "",
+                "COL_ID": "GBA_ NORTE_DIMENSION"
+            },
+            {
+                "agg": "SUM",
+                "children": [
+                    {
+                        "agg": "SUM",
+                        "children": [
+                            {
+                                "agg": "SUM",
+                                "field": "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUM",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "A",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "GBA_OESTE_26_IMPORTEBRUTOLOCAL_SUM"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUMacum",
+                                "headerName": "ImporteBrutoLocal(SUM)",
+                                "kind": "acumH",
+                                "meassureName": "ImporteBrutoLocal",
+                                "COL_ID": "GBA_OESTE_26_IMPORTEBRUTOLOCAL_SUMacum"
+                            },
+                            {
+                                "agg": "SUM",
+                                "field": "GBA.OESTE##_VIS_##26##_VIS_##COL13_SUM",
+                                "headerName": "ImporteNetoLocal",
+                                "kind": "A",
+                                "meassureName": "ImporteNetoLocal",
+                                "COL_ID": "GBA_OESTE_26_IMPORTENETOLOCAL_SUM"
+                            }
+                        ],
+                        "field": "GBA.OESTE##_VIS_##26",
+                        "headerName": "26",
+                        "kind": "A",
+                        "meassureName": "",
+                        "COL_ID": "26_DIMENSION"
+                    }
+                ],
+                "field": "GBA.OESTE",
+                "headerName": "GBA.OESTE",
+                "kind": "A",
+                "meassureName": "",
+                "COL_ID": "GBA_OESTE_DIMENSION"
+            },
+            {
+                "agg": "SUM",
+                "field": "COL1_SUM",
+                "headerName": "IMPORTEBRUTOLOCAL(SUM)",
+                "kind": "T",
+                "meassureName": "ImporteBrutoLocal",
+                "COL_ID": "IMPORTEBRUTOLOCAL_SUM"
+            }
+        ],
+        "fieldRowMap": {
+            "ClasificacionCliente1": "COL3",
+            "ClasificacionCliente2": "COL12",
+            "Cliente": "COL2",
+            "CodZonaVenta": "COL11",
+            "ImporteBrutoLocal": "COL1",
+            "ImporteNetoLocal": "COL13",
+            "ZonaVenta": "COL10"
         },
-        {
-          "agg": "SUM",
-          "field": "COL1_SUMacum",
-          "headerName": "Price(acum)(SUM)",
-          "kind": "acumV",
-          "meassureName": "Price"
-        }
-      ],
-      "fieldRowMap": { "CardName": "COL2", "Price": "COL1" },
-      "rowFieldMap": { "COL1": "Price", "COL2": "CardName" },
-      "rows": [
-        {
-          "COL1_SUM": { "value": 28086.05 },
-          "COL1_SUMacum": { "value": 28086.05 },
-          "childs": null,
-          "groupName": "BARBIERI SERAFIN ANTONIO"
+        "rowFieldMap": {
+            "COL1": "ImporteBrutoLocal",
+            "COL10": "ZonaVenta",
+            "COL11": "CodZonaVenta",
+            "COL12": "ClasificacionCliente2",
+            "COL13": "ImporteNetoLocal",
+            "COL2": "Cliente",
+            "COL3": "ClasificacionCliente1"
         },
-        {
-          "COL1_SUM": { "value": 544764.7396 },
-          "COL1_SUMacum": { "value": 572850.7896 },
-          "childs": null,
-          "groupName": "DENSO MANUFACTURING ARGENTINA S.A"
-        },
-        {
-          "COL1_SUM": { "value": 50000.0 },
-          "COL1_SUMacum": { "value": 622850.7896 },
-          "childs": null,
-          "groupName": "Diaz Vouga Emanuel Jose Oscar"
-        },
-        {
-          "COL1_SUM": { "value": 317915.1594 },
-          "COL1_SUMacum": { "value": 940765.949 },
-          "childs": null,
-          "groupName": "EQUIPAMIENTOS BRACCO S.A."
-        },
-        {
-          "COL1_SUM": { "value": 250000.0 },
-          "COL1_SUMacum": { "value": 1190765.949 },
-          "childs": null,
-          "groupName": "HERLAN MARIO CESAR"
-        },
-        {
-          "COL1_SUM": { "value": 378652.5452 },
-          "COL1_SUMacum": { "value": 1569418.4942 },
-          "childs": null,
-          "groupName": "HONDA MOTOR DE ARGENTINA SA"
-        },
-        {
-          "COL1_SUM": { "value": 55535326.34 },
-          "COL1_SUMacum": { "value": 57104744.8342 },
-          "childs": null,
-          "groupName": "Honda Motor de Argentina SA"
-        },
-        {
-          "COL1_SUM": { "value": 18676448.169 },
-          "COL1_SUMacum": { "value": 75781193.0032 },
-          "childs": null,
-          "groupName": "INDUSTRIAS GUIDI SACIF"
-        },
-        {
-          "COL1_SUM": { "value": 77707.3 },
-          "COL1_SUMacum": { "value": 75858900.3032 },
-          "childs": null,
-          "groupName": "JIT S.A."
-        },
-        {
-          "COL1_SUM": { "value": 450000.0 },
-          "COL1_SUMacum": { "value": 76308900.3032 },
-          "childs": null,
-          "groupName": "Lauria Maria Soledad"
-        },
-        {
-          "COL1_SUM": { "value": 3755656.1086 },
-          "COL1_SUMacum": { "value": 80064556.4118 },
-          "childs": null,
-          "groupName": "MANDOLA HERMANOS S.A."
-        },
-        {
-          "COL1_SUM": { "value": 2520938.29 },
-          "COL1_SUMacum": { "value": 82585494.7018 },
-          "childs": null,
-          "groupName": "MERCEDES-BENZ ARGENTINA S.A."
-        },
-        {
-          "COL1_SUM": { "value": 20477902.8252 },
-          "COL1_SUMacum": { "value": 103063397.527 },
-          "childs": null,
-          "groupName": "METALSA ARGENTINA S.A."
-        },
-        {
-          "COL1_SUM": { "value": 210100.89 },
-          "COL1_SUMacum": { "value": 103273498.417 },
-          "childs": null,
-          "groupName": "METALSA,  S.A.P.I. de C.V."
-        },
-        {
-          "COL1_SUM": { "value": 3241410.49 },
-          "COL1_SUMacum": { "value": 106514908.907 },
-          "childs": null,
-          "groupName": "METALURGICA VILLA SARMIENTO S.R.L."
-        },
-        {
-          "COL1_SUM": { "value": 1908104.62 },
-          "COL1_SUMacum": { "value": 108423013.527 },
-          "childs": null,
-          "groupName": "Mercedes-Benz Argentina S.A."
-        },
-        {
-          "COL1_SUM": { "value": 3289.62 },
-          "COL1_SUMacum": { "value": 108426303.147 },
-          "childs": null,
-          "groupName": "Metalurgica Rual SA"
-        },
-        {
-          "COL1_SUM": { "value": 139648.74 },
-          "COL1_SUMacum": { "value": 108565951.887 },
-          "childs": null,
-          "groupName": "PILKINGTON AUTOMOTIVE S.A."
-        },
-        {
-          "COL1_SUM": { "value": 1346.28 },
-          "COL1_SUMacum": { "value": 108567298.167 },
-          "childs": null,
-          "groupName": "Prensanor"
-        },
-        {
-          "COL1_SUM": { "value": 523.9224 },
-          "COL1_SUMacum": { "value": 108567822.0894 },
-          "childs": null,
-          "groupName": "Prestam SAIC"
-        },
-        {
-          "COL1_SUM": { "value": 1604065.0768 },
-          "COL1_SUMacum": { "value": 110171887.1662 },
-          "childs": null,
-          "groupName": "Prestamp SAIC"
-        },
-        {
-          "COL1_SUM": { "value": 127.0 },
-          "COL1_SUMacum": { "value": 110172014.1662 },
-          "childs": null,
-          "groupName": "SAS AUTOMOTIVE SYSTEM"
-        },
-        {
-          "COL1_SUM": { "value": 49166296.9119 },
-          "COL1_SUMacum": { "value": 159338311.0781 },
-          "childs": null,
-          "groupName": "SAS Automotriz Argentina SA"
-        },
-        {
-          "COL1_SUM": { "value": 276701294.474 },
-          "COL1_SUMacum": { "value": 436039605.5521 },
-          "childs": null,
-          "groupName": "Sin Datos"
-        },
-        {
-          "COL1_SUM": { "value": 482064.55 },
-          "COL1_SUMacum": { "value": 436521670.1021 },
-          "childs": null,
-          "groupName": "TIBERINA AUTOMOTIVE ARGENTINA SA"
-        },
-        {
-          "COL1_SUM": { "value": 424715039.8666 },
-          "COL1_SUMacum": { "value": 861236709.9687 },
-          "childs": null,
-          "groupName": "TOYOTA ARGENTINA S.A."
-        },
-        {
-          "COL1_SUM": { "value": 1936395.2808 },
-          "COL1_SUMacum": { "value": 863173105.2495 },
-          "childs": null,
-          "groupName": "TOYOTA BOSHOKU ARGENTINA S.R.L."
-        },
-        {
-          "COL1_SUM": { "value": 2319736.448 },
-          "COL1_SUMacum": { "value": 865492841.6975 },
-          "childs": null,
-          "groupName": "TRANSPORTE PILAR SRL"
-        },
-        {
-          "COL1_SUM": { "value": 98755697.2968 },
-          "COL1_SUMacum": { "value": 964248538.9943 },
-          "childs": null,
-          "groupName": "VOLKSWAGEN ARGENTINA S.A."
-        },
-        {
-          "COL1_SUM": { "value": 5477415.1842 },
-          "COL1_SUMacum": { "value": 969725954.1785 },
-          "childs": null,
-          "groupName": "VOLVO TRUCKS Y BUSES ARGENTINA S.A."
-        }
-      ],
-      "total": [{ "COL1_SUM": 969725954.1785 }]
+        "rows": [
+            {
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                    "value": -4095.13
+                },
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                    "value": 4262.27
+                },
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                    "value": 4262.27
+                },
+                "COL1_SUM": {
+                    "value": 4262.27
+                },
+                "childs": [
+                    {
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                            "value": -4095.13
+                        },
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                            "value": 4262.27
+                        },
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                            "value": 4262.27
+                        },
+                        "COL1_SUM": {
+                            "value": 4262.27
+                        },
+                        "childs": [
+                            {
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                                    "value": -4095.13
+                                },
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                                    "value": 4262.27
+                                },
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                                    "value": 4262.27
+                                },
+                                "COL1_SUM": {
+                                    "value": 4262.27
+                                },
+                                "childs": null,
+                                "groupName": "GRUPO 5"
+                            }
+                        ],
+                        "groupName": "30"
+                    }
+                ],
+                "groupName": " LUBRICANTES PAMPERO (FILTROS)"
+            },
+            {
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                    "value": 12050.43
+                },
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                    "value": 14176.98
+                },
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                    "value": 14176.98
+                },
+                "COL1_SUM": {
+                    "value": 14176.98
+                },
+                "childs": [
+                    {
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                            "value": 12050.43
+                        },
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                            "value": 14176.98
+                        },
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                            "value": 14176.98
+                        },
+                        "COL1_SUM": {
+                            "value": 14176.98
+                        },
+                        "childs": [
+                            {
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                                    "value": 12050.43
+                                },
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                                    "value": 14176.98
+                                },
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                                    "value": 14176.98
+                                },
+                                "COL1_SUM": {
+                                    "value": 14176.98
+                                },
+                                "childs": null,
+                                "groupName": "NO DISPONIBLE"
+                            }
+                        ],
+                        "groupName": "NO DISPONIBLE"
+                    }
+                ],
+                "groupName": "AC FOODS SA"
+            },
+            {
+                "COL1_SUM": {
+                    "value": 275976.21
+                },
+                "GBA. NORTE##_VIS_##11##_VIS_##COL13_SUM": {
+                    "value": 214955.57
+                },
+                "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUM": {
+                    "value": 275976.21
+                },
+                "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUMacum": {
+                    "value": 275976.21
+                },
+                "childs": [
+                    {
+                        "COL1_SUM": {
+                            "value": 275976.21
+                        },
+                        "GBA. NORTE##_VIS_##11##_VIS_##COL13_SUM": {
+                            "value": 214955.57
+                        },
+                        "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUM": {
+                            "value": 275976.21
+                        },
+                        "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUMacum": {
+                            "value": 275976.21
+                        },
+                        "childs": [
+                            {
+                                "COL1_SUM": {
+                                    "value": 275976.21
+                                },
+                                "GBA. NORTE##_VIS_##11##_VIS_##COL13_SUM": {
+                                    "value": 214955.57
+                                },
+                                "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUM": {
+                                    "value": 275976.21
+                                },
+                                "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUMacum": {
+                                    "value": 275976.21
+                                },
+                                "childs": null,
+                                "groupName": "GRUPO 5"
+                            }
+                        ],
+                        "groupName": "NO DISPONIBLE"
+                    }
+                ],
+                "groupName": "ACAPULCOS MOTOS- STEDILE GUILL"
+            },
+            {
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                    "value": 14106.45
+                },
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                    "value": 17353.26
+                },
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                    "value": 17353.26
+                },
+                "COL1_SUM": {
+                    "value": 17353.26
+                },
+                "childs": [
+                    {
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                            "value": 14106.45
+                        },
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                            "value": 17353.26
+                        },
+                        "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                            "value": 17353.26
+                        },
+                        "COL1_SUM": {
+                            "value": 17353.26
+                        },
+                        "childs": [
+                            {
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": {
+                                    "value": 14106.45
+                                },
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": {
+                                    "value": 17353.26
+                                },
+                                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUMacum": {
+                                    "value": 17353.26
+                                },
+                                "COL1_SUM": {
+                                    "value": 17353.26
+                                },
+                                "childs": null,
+                                "groupName": "GRUPO 3"
+                            }
+                        ],
+                        "groupName": "NO DISPONIBLE"
+                    }
+                ],
+                "groupName": "ACEROS Y CONSTRUCCIONES SA"
+            },
+            {
+                "COL1_SUM": {
+                    "value": 52820.24
+                },
+                "GBA.OESTE##_VIS_##26##_VIS_##COL13_SUM": {
+                    "value": 41407.44
+                },
+                "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUM": {
+                    "value": 52820.24
+                },
+                "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUMacum": {
+                    "value": 52820.24
+                },
+                "childs": [
+                    {
+                        "COL1_SUM": {
+                            "value": 52820.24
+                        },
+                        "GBA.OESTE##_VIS_##26##_VIS_##COL13_SUM": {
+                            "value": 41407.44
+                        },
+                        "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUM": {
+                            "value": 52820.24
+                        },
+                        "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUMacum": {
+                            "value": 52820.24
+                        },
+                        "childs": [
+                            {
+                                "COL1_SUM": {
+                                    "value": 52820.24
+                                },
+                                "GBA.OESTE##_VIS_##26##_VIS_##COL13_SUM": {
+                                    "value": 41407.44
+                                },
+                                "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUM": {
+                                    "value": 52820.24
+                                },
+                                "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUMacum": {
+                                    "value": 52820.24
+                                },
+                                "childs": null,
+                                "groupName": "GRUPO 1"
+                            }
+                        ],
+                        "groupName": "NO DISPONIBLE"
+                    }
+                ],
+                "groupName": "ACONRA CONSTRUCCIONES SA"
+            },
+            {
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                    "value": 1173012.61
+                },
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                    "value": 1523649.12
+                },
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                    "value": 1523649.12
+                },
+                "COL1_SUM": {
+                    "value": 1523649.12
+                },
+                "childs": [
+                    {
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                            "value": 1173012.61
+                        },
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                            "value": 1523649.12
+                        },
+                        "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                            "value": 1523649.12
+                        },
+                        "COL1_SUM": {
+                            "value": 1523649.12
+                        },
+                        "childs": [
+                            {
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": {
+                                    "value": 1173012.61
+                                },
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": {
+                                    "value": 1523649.12
+                                },
+                                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUMacum": {
+                                    "value": 1523649.12
+                                },
+                                "COL1_SUM": {
+                                    "value": 1523649.12
+                                },
+                                "childs": null,
+                                "groupName": "GRUPO 1"
+                            }
+                        ],
+                        "groupName": "30"
+                    }
+                ],
+                "groupName": "ACOPIADORES DE SEBO S.A"
+            }
+        ],
+        "total": [
+            {
+                "GBA.OESTE##_VIS_##26##_VIS_##COL1_SUM": 52820.24,
+                "CAPITAL NORTE##_VIS_##COL1_SUM": 31530.24,
+                "GBA. NORTE##_VIS_##COL13_SUM": 214955.57,
+                "GBA. NORTE##_VIS_##11##_VIS_##COL1_SUM": 275976.21,
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL1_SUM": 31530.24,
+                "CAPITAL NORTE##_VIS_##01##_VIS_##COL13_SUM": 26156.88,
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL1_SUM": 1527911.39,
+                "GBA.OESTE##_VIS_##COL1_SUM": 52820.24,
+                "CAPITAL SUR##_VIS_##COL13_SUM": 1168917.48,
+                "CAPITAL SUR##_VIS_##COL1_SUM": 1527911.39,
+                "GBA.OESTE##_VIS_##COL13_SUM": 41407.44,
+                "GBA. NORTE##_VIS_##COL1_SUM": 275976.21,
+                "GBA.OESTE##_VIS_##26##_VIS_##COL13_SUM": 41407.44,
+                "CAPITAL NORTE##_VIS_##COL13_SUM": 26156.88,
+                "CAPITAL SUR##_VIS_##04##_VIS_##COL13_SUM": 1168917.48,
+                "COL13_SUM": 1451437.37,
+                "GBA. NORTE##_VIS_##11##_VIS_##COL13_SUM": 214955.57,
+                "COL1_SUM": 1888238.08,
+                "groupName": "Total"
+            }
+        ]
     },
-    "records": 31,
-    "timeElapsedMill": 233
-  }
+    "records": 63,
+    "timeElapsedMill": 227
 }
